@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>COVID-19 Cases by County (2020)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-map="counts">
+  <div id="map"></div>
+
+  <div id="titleBox" class="map-overlay">
+    <div class="title">COVID-19 Total Cases by U.S. County (2020)</div>
+    <div class="subtitle">Proportional symbols show <b>total cases</b>.</div>
+    <div class="source">
+      Data: NYT COVID-19<br/>
+      Map: Tommy Tsui
+    </div>
+  </div>
+
+  <div id="legend" class="map-overlay">
+    <div class="legend-title">Cases (symbol size)</div>
+
+    <div class="legend-row">
+      <span class="legend-circle s1"></span> 5,000
+    </div>
+    <div class="legend-row">
+      <span class="legend-circle s2"></span> 25,000
+    </div>
+    <div class="legend-row">
+      <span class="legend-circle s3"></span> 100,000
+    </div>
+    <div class="legend-row">
+      <span class="legend-circle s4"></span> 300,000+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

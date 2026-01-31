@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>COVID-19 Rates by County (2020)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-map="rates">
+  <div id="map"></div>
+
+  <div id="titleBox" class="map-overlay">
+    <div class="title">COVID-19 Case Rates by U.S. County (2020)</div>
+    <div class="subtitle">Choropleth shows <b>rates</b> (cases per 1,000 residents).</div>
+    <div class="source">
+      Data: NYT COVID-19 + ACS 2018 pop<br/>
+      Map: Tommy Tsui
+    </div>
+  </div>
+
+  <div id="legend" class="map-overlay">
+    <div class="legend-title">Rates (cases per 1,000)</div>
+    <div class="legend-row"><span class="legend-color c1"></span> 0 – 45</div>
+    <div class="legend-row"><span class="legend-color c2"></span> 45 – 60</div>
+    <div class="legend-row"><span class="legend-color c3"></span> 60 – 71</div>
+    <div class="legend-row"><span class="legend-color c4"></span> 71 – 85</div>
+    <div class="legend-row"><span class="legend-color c5"></span> 85+</div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
