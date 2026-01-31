@@ -6,7 +6,7 @@ The goal of this project is to demonstrate web mapping techniques including GeoJ
 
 ---
 
-## Live Maps
+## Link to the Maps
 
 **Choropleth Map**  
 https://ttsui123.github.io/ttsui123.us-covid-2020-webmaps/map1.html  
@@ -28,7 +28,7 @@ https://ttsui123.github.io/ttsui123.us-covid-2020-webmaps/map2.html
 
 ## Map Features
 
-### Choropleth Map (Rates)
+### Choropleth Map
 
 - Displays COVID-19 infection rates per 1,000 residents by county
 - Uses a five-class stepped color scheme
@@ -43,7 +43,7 @@ https://ttsui123.github.io/ttsui123.us-covid-2020-webmaps/map2.html
 
 ---
 
-### Proportional Symbol Map (Cases)
+### Proportional Symbol Map
 
 - Displays total COVID-19 case counts using centroid-based proportional circles
 - Circle sizes scale dynamically based on case totals
@@ -61,7 +61,7 @@ https://ttsui123.github.io/ttsui123.us-covid-2020-webmaps/map2.html
 
 ### Libraries and Tools Used
 
-- **Mapbox GL JS (v2.8.1)** — Interactive web mapping framework  
+- **Mapbox GL JS** — Interactive web mapping framework  
 - **Mapshaper.org** — GeoJSON conversion, geometry simplification, centroid generation  
 - **GitHub Pages** — Web hosting  
 - **VS Code Live Server** — Local development server  
@@ -89,13 +89,11 @@ https://ttsui123.github.io/ttsui123.us-covid-2020-webmaps/map2.html
 - **County Boundary Data:**  
   U.S. Census Bureau Cartographic Boundary Files  
 
-All datasets were provided and preprocessed as part of the course lab materials.
-
 ---
 
 ## Projection
 
-Both maps use the **Albers Equal Area projection**, which is commonly applied for continental United States thematic mapping to reduce area distortion and improve spatial accuracy for national-scale visualization.
+Both maps use the Albers Equal Area projection, which is commonly applied for continental United States thematic mapping to reduce area distortion and improve spatial accuracy for national-scale visualization.
 
 ---
 
@@ -103,10 +101,10 @@ Both maps use the **Albers Equal Area projection**, which is commonly applied fo
 
 **Tommy Tsui**  
 University of Washington  
-GEOG 458 — Web GIS  
+GEOG 458 
 
 ---
 
 ## Acknowledgments
 
-This project was completed as part of the University of Washington Geography Department Web GIS laboratory exercises. Base code structure and data preparation guidance were adapted from course materials and instructional examples.
+This project was completed as part of the University of Washington Geography Department. 
